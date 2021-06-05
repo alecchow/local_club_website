@@ -44,9 +44,9 @@ section {
 }
 
 .welcome {
-    background: url(./imgs/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg) rgba(0, 0, 0, 0.3);
+    background: url(./imgs/jonathan-borba-PYGJTy2KzHU-unsplash.jpg) rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -58,9 +58,43 @@ section {
 }
 
 .membership {
-
+    line-height: 0.5rem;
+    height: auto;
+    flex-direction: column;
 }
 
 .imgcontainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-auto-flow: column 250px;
+}
 
+.imgcontainer img {
+    width: 500px;
+    height: 250px;
+    object-position: center;
+    object-fit: cover;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1048px) {
+    .imgcontainer img {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0;
+    }
+  }
+
+@media only screen and (max-width: 640px) {
+    .imgcontainer img {
+        margin: 2px -1px;
+        width: 49%;
+      }
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
 }
