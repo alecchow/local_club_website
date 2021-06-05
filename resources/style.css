@@ -11,10 +11,13 @@ body {
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
+    color: wheat;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: wheat;
 }
 
 a {
@@ -34,6 +37,12 @@ section {
     margin-top: 50px;
 }
 
+.content {
+    width: 100%;
+    align-self: flex-end;
+    padding-bottom: 50px;
+}
+
 .welcome {
     background: url(./imgs/josh-calabrese-Ev1XqeVL2wI-unsplash.jpg) rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
@@ -41,17 +50,11 @@ section {
     background-size: cover;
 }
 
-.welcome .content {
-    width: 100%;
-    color: white;
-    align-self: flex-end;
-    padding-bottom: 50px;
-}
-
-
-
 .introclass {
-    width: 100%;
+    background: url(./imgs/matthew-fournier-Yt1paNFp00s-unsplash.jpg) rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
 }
 
 .membership {
